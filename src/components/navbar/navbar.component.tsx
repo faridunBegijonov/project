@@ -18,13 +18,6 @@ export const Navbar: React.FC = () => {
       <nav className="bg-[#0C0537] py-[20px] ">
         <Container>
           <div className="flex items-center justify-between">
-            <IconButton
-              onClick={showMenuClick}
-              sx={{ color: "#fff", display: "none" }}
-              className="menuIcon"
-            >
-              <MenuIcon />
-            </IconButton>
             <div className="flex items-center justify-between w-[60%] linkNav ">
               <NavLink to="/">Главная</NavLink>
               <NavLink to="aboutCompany">О компании</NavLink>
@@ -56,6 +49,14 @@ export const Navbar: React.FC = () => {
               </i>
               info@i-lights.ru
             </p>
+
+            <IconButton
+              onClick={showMenuClick}
+              sx={{ color: "#fff", display: "none" }}
+              className="menuIcon"
+            >
+              <MenuIcon />
+            </IconButton>
           </div>
         </Container>
       </nav>
@@ -67,8 +68,8 @@ export const Navbar: React.FC = () => {
             sx={{
               color: "#fff",
               position: "absolute",
-              top: "20px",
-              right: "20px",
+              top: "17px",
+              right: "17px",
             }}
           >
             <CloseIcon />
@@ -80,12 +81,6 @@ export const Navbar: React.FC = () => {
           <NavLink to="shippingAndPayment">Доставка и оплата</NavLink>
           <NavLink to="contacts"> Контакты </NavLink>
           <NavLink to="compilation">Подборка</NavLink>
-          <p className="text-white emailMobile">
-            <i className="mr-2">
-              <EmailIcon />
-            </i>
-            info@i-lights.ru
-          </p>
           <Button sx={{ marginLeft: 3, color: "#fff" }} variant="outlined">
             <i>
               <PhoneIcon />
