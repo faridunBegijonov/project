@@ -12,6 +12,10 @@ const resources = {
       Контакты: "Контакты",
       Подборка: "Подборка",
       Язык: "Язык",
+      "Эффективные решения": "Эффективные решения",
+      "Компания I-lights":
+        "Компания I-lights это современная производственно-проектная организация с многолентим опытом работы в сфере разработки",
+      Подробнее: "Подробнее",
     },
   },
   en: {
@@ -24,6 +28,10 @@ const resources = {
       Контакты: "Contacts",
       Подборка: "Compilation",
       Язык: "Language",
+      "Эффективные решения": "Effective Solutions",
+      "Компания I-lights":
+        "I-lights is a modern production and design organization with many years of experience in the field of development",
+      Подробнее: "More",
     },
   },
 };

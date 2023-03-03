@@ -1,0 +1,90 @@
+.contentImgBanner:hover .imgBanner {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 1100px) {
+  .contentBanner {
+    padding-top: 150px;
+  }
+
+  .contentImgBanner {
+    height: 350px;
+  }
+
+  .imgBanner {
+    height: 350px;
+  }
+
+  .textBanner {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentBanner {
+    padding-top: 150px;
+    flex-direction: column;
+  }
+
+  .contentImgBanner {
+    height: 350px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .imgBanner {
+    height: 350px;
+  }
+
+  .textBanner {
+    margin-top: 15px;
+  }
+
+  .contentText {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contentBanner {
+    padding-top: 100px;
+  }
+
+  .contentImgBanner {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .imgBanner {
+    height: 300px;
+  }
+
+  .textBanner {
+    margin-top: 15px;
+  }
+
+  .btnBanner {
+    margin-top: 25px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .contentImgBanner {
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .imgBanner {
+    height: 250px;
+  }
+
+  .textBanner {
+    margin-top: 15px;
+  }
+
+  .btnBanner {
+    margin-top: 25px !important;
+  }
+}

@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-[#0C0537] py-[20px] ">
+      <nav className="bg-[#0C0537] py-[20px] fixed w-[100%] ">
         <Container>
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-between w-[60%] linkNav ">
@@ -95,7 +95,7 @@ export const Navbar: React.FC = () => {
       </nav>
 
       {showMenu && (
-        <div className="mobileMenu h-screen flex items-center justify-between flex-col py-[100px] bg-[#0C0537] fixed top-0 left-0 right-0 bottom-0">
+        <div className="mobileMenu h-screen flex items-center justify-between flex-col py-[100px] bg-[#0C0537] fixed z-50 top-0 left-0 right-0 bottom-0">
           <IconButton
             onClick={showMenuClick}
             sx={{
