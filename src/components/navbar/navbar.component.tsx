@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-[#0C0537] py-[20px] fixed w-[100%] ">
+      <nav className="bg-[#0C0537] py-[20px] fixed w-[100%] z-50">
         <Container>
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-between w-[60%] linkNav ">
