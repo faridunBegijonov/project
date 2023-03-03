@@ -1,0 +1,41 @@
+@media (max-width: 1100px) {
+  .emailNav {
+    display: none;
+  }
+
+  .linkNav {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentPhoneNav {
+    display: none;
+  }
+
+  .linkNav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contentPhoneNav {
+    display: none;
+  }
+
+  .linkNav {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block !important;
+  }
+
+  nav {
+    padding: 10px 0 !important;
+  }
+
+  .emailMobile {
+    display: block;
+  }
+}
