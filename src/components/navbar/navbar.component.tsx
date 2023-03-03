@@ -37,7 +37,9 @@ export const Navbar: React.FC = () => {
               <NavLink to="aboutCompany">{t("О компании")}</NavLink>
               <NavLink to="services">{t("Услуги")}</NavLink>
               <NavLink to="projects">{t("Проекты")}</NavLink>
-              <NavLink to="shippingAndPayment">{t("Доставка и оплата")}</NavLink>
+              <NavLink to="shippingAndPayment">
+                {t("Доставка и оплата")}
+              </NavLink>
               <NavLink to="contacts"> {t("Контакты")} </NavLink>
               <NavLink to="compilation">{t("Подборка")}</NavLink>
             </div>
