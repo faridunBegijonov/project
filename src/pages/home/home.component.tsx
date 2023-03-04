@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./home.style.scss";
 import { KatalogHome } from "../../components/katalogHome/katalogHome.component";
+import { Service } from "../../components/service/service.component";
 export const Home: React.FC = () => {
   const { t } = useTranslation();
   useEffect(() => {
@@ -50,6 +51,7 @@ export const Home: React.FC = () => {
         </Container>
       </section>
       <KatalogHome />
+      <Service />
     </>
   );
 };
