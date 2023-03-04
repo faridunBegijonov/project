@@ -35,7 +35,7 @@ export const Home: React.FC = () => {
                 {t("Подробнее")}
               </Button>
             </div>
-            <div className="w-[80%] h-[450px] ml-3 truncate contentImgBanner duration-500 flex items-center justify-center	">
+            <div data-aos='fade-left' data-aos-duration='1500' className="w-[80%] h-[450px] ml-3 truncate contentImgBanner duration-500 flex items-center justify-center	">
               <img
                 className="w-[100%] h-[450px] imgBanner duration-500	"
                 src={imgBanner}

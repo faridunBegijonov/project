@@ -20,7 +20,7 @@ export const KatalogHome: React.FC = () => {
         >
           {t("Каталог")}
         </Typography>
-        <div className="flex items-center justify-between w-[100%] mt-[64px] flexContentKatalog ">
+        <div data-aos='fade-up' data-aos-duration='1500' className="flex items-center justify-between w-[100%] mt-[64px] flexContentKatalog ">
           <div className="w-[70%] pr-[24px] h-[467px] flex items-center justify-center contentImgkatalog">
             <img className="w-[100%] h-[467px]" src={imgKatalog} alt="Img" />
           </div>
