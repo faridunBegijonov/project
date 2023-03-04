@@ -29,177 +29,119 @@ export const Service: React.FC = () => {
         >
           {t("УслугиC")}
         </Typography>
-
-        <Accordion sx={{ marginTop: 4 }}>
-          <AccordionSummary
-            sx={{ mt: 4 }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
-            aria-controls="panel1a-content"
-          >
-            <Typography
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                fontWeight: "bold",
-                color: "#535353",
-              }}
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <Accordion sx={{ marginTop: 4 }}>
+            <AccordionSummary
+              sx={{ mt: 4 }}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
+              aria-controls="panel1a-content"
             >
-              <img src={img1} className="pr-[15px]" alt="Img" /> Изготовление
-              счетильников для торгового и общественного освещени
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#A6A6A6" }}>
-              Мы ценим Ваше время, поэтому, коротко о главном. Наша компания
-              была образована с целью предложить Российскому рынку
-              профессиональные светотехнические решения для освещения магазинов,
-              офисов и объектов общественно-развлекательного назначения. Сегодня
-              мы поставляем осветительное оборудование различных ценовых
-              категорий из стран Юго-Восточной Азии и Европы, а так же являемся
-              дистрибьюторами лучших Российских производителей. А среди наших
-              клиентов, сетевые и частные магазины одежды и обуви, продуктовые
-              магазины, торговые и офисные центры, представители индустрии
-              красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и
-              частные заказчики.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            sx={{ mt: 2 }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
-            aria-controls="panel2a-content"
-          >
-            <Typography
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                fontWeight: "bold",
-                color: "#535353",
-              }}
+              <Typography
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                  color: "#535353",
+                }}
+              >
+                <img src={img1} className="pr-[15px]" alt="Img" />{" "}
+                <p>{t("Изготовление")}</p>
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#A6A6A6" }}>{t("Мы ценим")}</Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              sx={{ mt: 2 }}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
+              aria-controls="panel2a-content"
             >
-              <img className="pr-[15px]" src={img2} alt="Img" /> Поставки
-              дизайнерского света от ведущих европейских производителей
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#A6A6A6" }}>
-              Мы ценим Ваше время, поэтому, коротко о главном. Наша компания
-              была образована с целью предложить Российскому рынку
-              профессиональные светотехнические решения для освещения магазинов,
-              офисов и объектов общественно-развлекательного назначения. Сегодня
-              мы поставляем осветительное оборудование различных ценовых
-              категорий из стран Юго-Восточной Азии и Европы, а так же являемся
-              дистрибьюторами лучших Российских производителей. А среди наших
-              клиентов, сетевые и частные магазины одежды и обуви, продуктовые
-              магазины, торговые и офисные центры, представители индустрии
-              красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и
-              частные заказчики.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            sx={{ mt: 2 }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
-            aria-controls="panel2a-content"
-          >
-            <Typography
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                fontWeight: "bold",
-                color: "#535353",
-              }}
+              <Typography
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                  color: "#535353",
+                }}
+              >
+                <img className="pr-[15px]" src={img2} alt="Img" /> Поставки
+                дизайнерского света от ведущих европейских производителей
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#A6A6A6" }}>{t("Мы ценим")}</Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              sx={{ mt: 2 }}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
+              aria-controls="panel2a-content"
             >
-              <img src={img3} className="pr-[15px]" alt="Img" /> Проектирование,
-              светотехнические расчеты и разработка концепции освещения
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#A6A6A6" }}>
-              Мы ценим Ваше время, поэтому, коротко о главном. Наша компания
-              была образована с целью предложить Российскому рынку
-              профессиональные светотехнические решения для освещения магазинов,
-              офисов и объектов общественно-развлекательного назначения. Сегодня
-              мы поставляем осветительное оборудование различных ценовых
-              категорий из стран Юго-Восточной Азии и Европы, а так же являемся
-              дистрибьюторами лучших Российских производителей. А среди наших
-              клиентов, сетевые и частные магазины одежды и обуви, продуктовые
-              магазины, торговые и офисные центры, представители индустрии
-              красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и
-              частные заказчики.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            sx={{ mt: 2 }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
-            aria-controls="panel2a-content"
-          >
-            <Typography
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                fontWeight: "bold",
-                color: "#535353",
-              }}
+              <Typography
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                  color: "#535353",
+                }}
+              >
+                <img src={img3} className="pr-[15px]" alt="Img" />{" "}
+                Проектирование, светотехнические расчеты и разработка концепции
+                освещения
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#A6A6A6" }}>{t("Мы ценим")}</Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              sx={{ mt: 2 }}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
+              aria-controls="panel2a-content"
             >
-              <img src={img4} className="pr-[15px]" alt="Img" />
-              Модернизация светильников
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#A6A6A6" }}>
-              Мы ценим Ваше время, поэтому, коротко о главном. Наша компания
-              была образована с целью предложить Российскому рынку
-              профессиональные светотехнические решения для освещения магазинов,
-              офисов и объектов общественно-развлекательного назначения. Сегодня
-              мы поставляем осветительное оборудование различных ценовых
-              категорий из стран Юго-Восточной Азии и Европы, а так же являемся
-              дистрибьюторами лучших Российских производителей. А среди наших
-              клиентов, сетевые и частные магазины одежды и обуви, продуктовые
-              магазины, торговые и офисные центры, представители индустрии
-              красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и
-              частные заказчики.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion>
-          <AccordionSummary
-            sx={{ mt: 2 }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
-            aria-controls="panel2a-content"
-          >
-            <Typography
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                fontWeight: "bold",
-                color: "#535353",
-              }}
+              <Typography
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                  color: "#535353",
+                }}
+              >
+                <img src={img4} className="pr-[15px]" alt="Img" />
+                Модернизация светильников
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#A6A6A6" }}>{t("Мы ценим")}</Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              sx={{ mt: 2 }}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#FFC94F" }} />}
+              aria-controls="panel2a-content"
             >
-              <img src={img5} className="pr-[15px]" alt="Img" />
-              Ремонт светодиодных светильников
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#A6A6A6" }}>
-              Мы ценим Ваше время, поэтому, коротко о главном. Наша компания
-              была образована с целью предложить Российскому рынку
-              профессиональные светотехнические решения для освещения магазинов,
-              офисов и объектов общественно-развлекательного назначения. Сегодня
-              мы поставляем осветительное оборудование различных ценовых
-              категорий из стран Юго-Восточной Азии и Европы, а так же являемся
-              дистрибьюторами лучших Российских производителей. А среди наших
-              клиентов, сетевые и частные магазины одежды и обуви, продуктовые
-              магазины, торговые и офисные центры, представители индустрии
-              красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и
-              частные заказчики.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
+              <Typography
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                  color: "#535353",
+                }}
+              >
+                <img src={img5} className="pr-[15px]" alt="Img" />
+                Ремонт светодиодных светильников
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#A6A6A6" }}>{t("Мы ценим")}</Typography>
+            </AccordionDetails>
+          </Accordion>
+        </div>
       </Container>
     </section>
   );

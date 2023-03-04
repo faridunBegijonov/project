@@ -25,6 +25,10 @@ const resources = {
       "Светильники Армстронг": "Светильники Армстронг",
       Светильники: " Светильники Армстронг с равномерной засветкой",
       УслугиC: "Услуги",
+      Изготовление:
+        "Изготовление счетильников для торгового и общественного освещени",
+      "Мы ценим":
+        "Мы ценим Ваше время, поэтому, коротко о главном. Наша компания была образована с целью предложить Российскому рынку профессиональные светотехнические решения для освещения магазинов, офисов и объектов общественно-развлекательного назначения. Сегодня мы поставляем осветительное оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов, сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные поселки и частные заказчики.",
     },
   },
   en: {
@@ -51,6 +55,10 @@ const resources = {
       "Светильники Армстронг": "Lamps Armstrong",
       Светильники: "Armstrong luminaires with uniform illumination",
       УслугиC: "Service",
+      Изготовление:
+        "Manufacture of counters for commercial and public lighting",
+      "Мы ценим":
+        "We value your time, therefore, briefly about the main thing. Our company was founded to offer the Russian market professional lighting solutions for lighting shops, offices and public entertainment facilities. Today we supply lighting equipment of various price categories from the countries of Southeast Asia and Europe, and we are also distributors of the best Russian manufacturers. And among our clients are chain and private clothing and footwear stores, grocery stores, shopping and office centers, representatives of the beauty and health industry, cafes, restaurants, hotels, cottage settlements and private customers.",
     },
   },
 };
