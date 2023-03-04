@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "../../components/navbar/navbar.component";
 import { Button, Container, Typography } from "@mui/material";
 import imgBanner from "../../assets/banner/i 1.png";
 import { useTranslation } from "react-i18next";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./home.style.scss";
+import { KatalogHome } from "../../components/katalogHome/katalogHome.component";
 export const Home: React.FC = () => {
   const { t } = useTranslation();
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />
@@ -39,6 +45,7 @@ export const Home: React.FC = () => {
           </div>
         </Container>
       </section>
+      <KatalogHome />
     </>
   );
 };

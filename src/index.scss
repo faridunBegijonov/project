@@ -6,8 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Unbounded", cursive;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 body {
@@ -17,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 6000px;
 }
 
 code {
@@ -34,11 +34,11 @@ a {
   transition: all 0.5s ease;
 }
 
-.active {
-  color: #fff !important;
-}
-
 a:hover {
   color: #fff;
   transition: all 0.5s ease;
+}
+
+.active {
+  color: #fff !important;
 }
