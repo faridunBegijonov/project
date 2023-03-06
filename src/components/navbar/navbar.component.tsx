@@ -19,9 +19,11 @@ export const Navbar: React.FC = () => {
   const showMenuClick = () => {
     setShowMenu(!showMenu);
   };
+
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleClose = (l?: string) => {
     setAnchorEl(null);
     i18n.changeLanguage(l);
