@@ -4,10 +4,12 @@ import { Button, Container, Typography } from "@mui/material";
 import imgKatalog from "../../assets/katalog/anypics 1.png";
 import { useTranslation } from "react-i18next";
 
+// bg-[red] sm:bg-[green] md:bg-[yellow] lg:bg-[#010152] 
+
 export const KatalogHome: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <section className="mt-[150px] contentKatalog ">
+    <section className="mt-[150px] contentKatalog max-[320px]:bg-[aqua] ">
       <Container>
         <Typography
           variant="h4"
